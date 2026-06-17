@@ -13,7 +13,7 @@ API_HASH = "5b539a894960ce38914c7205d5ed5418"
 STRING_SESSION = "1BVtsOKYBuxHDVw9uxXwnD493DfPuWgAwkxVYOLx63pZywc90Mt2Q5uCfSfK1gnUFQ0FBqGO2-i7bCJFU2A9J27wC2SJotWOQszeNsRkm6paaIxemhCHOFVViyAHSrCIfcxGLajg7YlwTFA7epTbXUKiRdsYHrYWZRY-KOMcgHyDqvEKkpmi9OEUu6PyNXPyHlBqnTyH-ULbhblsXHTE8MNMZOVkik8Wpz5J5xu7bKIFTSTXekRAeDw2CcMvSyneWSrB2Yrgrg_UA7kMiyM5Otkg3DD32LHDJYVuSJmpeFYEBqCJo4zkWNgavvB6FegK9rkSr68V05J-cFHY9ViS9LJYA5HxMIks="
 
 # 📢 CHANNELS
-SOURCE_CHANNEL = -1003984452893
+SOURCE_CHANNEL = -1003921981989
 TARGET_CHANNEL = -1003688356129
 
 # ⏱️ TIMINGS
@@ -76,7 +76,7 @@ async def handler(event):
                 f.write(card_hash + "\n")
             
             try:
-                msg = await client.send_message(TARGET_CHANNEL, f"/ajib {full_cc}")
+                msg = await client.send_message(TARGET_CHANNEL, f"/st {full_cc}")
                 msg_counter += 1
                 print(f"✅ SENT: {full_cc[:10]}*** | Total: {msg_counter}")
                 
